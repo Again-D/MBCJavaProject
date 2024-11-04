@@ -43,7 +43,7 @@ public class Person {
 	
 	// 3. 메서드
 	
-	public String inf() {
+	public String info() {
 		return "이름 : " + name + ", 나이 : " + age;
 	}
 	
