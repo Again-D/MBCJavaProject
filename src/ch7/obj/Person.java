@@ -1,6 +1,6 @@
 package ch7.obj;
 
-// 부모 클래스
+// 부모 클래스..
 public class Person {
 
 	// 1.멤버변수(필드)
