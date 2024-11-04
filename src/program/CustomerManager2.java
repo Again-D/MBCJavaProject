@@ -158,7 +158,7 @@ public class CustomerManager2 {
 			//	cus에 있는 name과 Customer 배열에 있는 객체들의 name들을 비교
 			if(cusList[i].getName().equals(cus.getName())) {	//	cus와 객체배열에 있는 이름이 같은 것 찾기
 				//	삭제 처리
-				for(int j = i; j < count -1; j++) { // 삭제로 data 개수가 줄었기 때문에 count -1
+				for(int j = i; j > count -1 ; j++) { // 삭제로 data 개수가 줄었기 때문에 count -1
 					cusList[j] = cusList[j +1];
 				}
 			}

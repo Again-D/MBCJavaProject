@@ -15,7 +15,7 @@ public class StaticExample1 {
 		System.out.println("Non-static a : "+c1.a);
 		System.out.println("Static b : "+c1.b);
 
-		Count c2= new Count();	// 인스턴스
+		Count c2 = new Count();	// 인스턴스
 		c2.a++;
 		c2.b++;
 		System.out.println("Non-static a : "+c2.a);
