@@ -71,6 +71,10 @@ public class ListExample1 {
 		list.clear();
 		System.out.println(list);
 		
+		// isEmpty() : 리스트가 비어있는지 확인
+		System.out.println(list.isEmpty());
+
+		
 		
 	}
 
