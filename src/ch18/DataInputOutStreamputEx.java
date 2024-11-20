@@ -5,7 +5,7 @@ import java.io.DataOutputStream;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 
-public class DataInputOutputEx {
+public class DataInputOutStreamputEx {
 
 	public static void main(String[] args) throws Exception {
 		// DataInputStream, DataOutputStream
