@@ -5,6 +5,7 @@ public class InterruptExample {
 	public static void main(String[] args) {
 		// 스레드 생성
 		Thread thread = new PrintThread2();
+//		thread.setPriority(0); // 스레드 우선순위 설정. 숫자가 높을 수록 우선순위가 높음
 		thread.start();
 		
 		try {
