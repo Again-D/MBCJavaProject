@@ -82,7 +82,7 @@ public class MembersVO {
 
 	@Override
 	public String toString() {
-		return "MembersVO [id=" + id + ", userId=" + userId + ", userPw=" + userPw + ", name=" + name + ", age=" + age
+		return "[id=" + id + ", userId=" + userId + ", userPw=" + userPw + ", name=" + name + ", age=" + age
 				+ ", phone=" + phone + ", createDate=" + createDate + "]";
 	}
 	

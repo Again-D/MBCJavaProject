@@ -40,7 +40,8 @@ public class MembersProgram {
 					case 1:
 						List<MembersVO> listAll = dao.selectAll();
 						for (MembersVO vo : listAll) {
-							System.out.println(vo);
+							System.out.println(vo.toString());
+
 						}
 						break;
 					case 2:
@@ -55,7 +56,7 @@ public class MembersProgram {
 						String searchName = scan.next();
 						List<MembersVO> listName = dao.selectOneName(searchName);
 						for (MembersVO vo : listName) {
-							System.out.println(vo);
+							System.out.println(vo.toString());
 						}
 						break;
 					case 0:
