@@ -19,8 +19,7 @@ public class MembersProgram {
 				// 멤버추가
 				System.out.println("멤버를 추가합니다.");
 				try {
-					MembersVO vo = new MembersVO();
-					vo = newMember();
+					MembersVO vo = newMember();
 					if(dao.insert(vo) !=0) {
 						System.out.println("추가 완료");
 					} else {
